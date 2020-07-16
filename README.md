@@ -17,12 +17,12 @@ you should change port, ip, passwords, etc. to your needs
     $ docker-compose down --volumes
     ### make sure to delete every folder too after that operation
 
-### optional later on
+## optional later on
 ### export database dump (change passwords in file)
     $ sudo ./export.sh
 
-## copy the project to an external server
-### how rsync works
+### copy the project to an external server
+#### how rsync works
     $ rsync -v -r <folder> <user>@<ip>:<destination>
-### example: copy external wordpress instance into a local folder
+#### example: copy external wordpress instance into a local folder
     $ rsync -v -r wordpress root@123.123.123.123:.
