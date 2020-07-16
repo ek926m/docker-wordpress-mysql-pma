@@ -3,6 +3,8 @@
 ## setup
 ### edit config .env
 you should change port, ip, passwords, etc. to your needs
+### if you change nothing in .env
+after starting services go to [localhost:8080](http://localhost:8080/)
 
 ### start services
     $ docker-compose up
