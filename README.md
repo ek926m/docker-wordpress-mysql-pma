@@ -1,22 +1,24 @@
 # docker-wordpress-pma-mysql
 
-## edit config .env
+## setup
+### edit config .env
 you should change port, ip, passwords, etc. to your needs
 
-## start services
+### start services
     $ docker-compose up
 
-## start services in detached mode
+### start services in detached mode
     $ docker-compose up -d
 
-## stop services
+### stop services
     $ docker-compose down
     
-## stop and delete everything
+### stop and delete everything
     $ docker-compose down --volumes
     ### make sure to delete every folder too after that operation
-    
-## export database dump (change passwords in file)
+
+### optional later on
+### export database dump (change passwords in file)
     $ sudo ./export.sh
 
 ## copy the project to an external server
