@@ -42,3 +42,4 @@ services:
        WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
     volumes:
       - ./wordpress-files:/var/www/html
+      - ./upload.ini:/usr/local/etc/php/conf.d/uploads.ini
