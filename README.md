@@ -20,8 +20,6 @@ after starting services go to [localhost:8080](http://localhost:8080/)
     ### make sure to delete every folder too after that operation
 
 ## optional later on
-### export database dump (change passwords in file)
-    $ sudo ./export.sh
 
 ### copy the project to an external server
 #### how rsync works
